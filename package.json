@@ -1,0 +1,17 @@
+{
+  "name": "pullpr",
+  "version": "0.0.1",
+  "description": "Node command line script to pull a PR into a branch",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Marti Planellas <marti.planellas@sainsburys.co.uk>",
+  "license": "GPL-3.0",
+  "bin": {
+    "pullPR": "./index.js"
+  },
+  "dependencies": {
+    "commander": "^2.9.0"
+  }
+}
